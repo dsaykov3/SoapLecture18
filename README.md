@@ -1,7 +1,7 @@
 # SoapLecture18
 
-SOAP web service accessing Contact record is added to this project
-To call the service use this curl or wsdl from http://localhost:8080/ws/contacts.wsdl
+SOAP web service accessing Contact records is added to this project.
+To call the service use the following curl or SOAP UI and WSDL from http://localhost:8080/ws/contacts.wsdl
 
 curl --location --request POST 'localhost:8080/ws/' \
 --header 'SOAPAction;' \
